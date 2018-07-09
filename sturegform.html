@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+      <meta charset="utf-8">
+      <title>Registration form</title>
+	  <style>
+          body {background-image:url("http://imagepacific.com/wp-content/uploads/2017/12/background-images-for-registration-form-2.jpg");background-size:1366px 768px; background-repeat:no-repeat;}
+          h1 {color: black;text-align:center;font-family:georgia;font-size:40px;font-weight:bold;font-style:italic;font-variant:small-caps;text-decoration:underline;decoration-style:wavy;}
+		  p {color: black;font-family:courier;font-weight:bolder}
+          form{text-align:center;}
+          input{border-radius:5px}
+     </style>
+</head>
+<body>
+      <h1>Student Registration Form</h1><br><br>
+<form>
+			<p>Student Name :
+			<input type="text" name="studentname"  size="30" required ></p>
+
+			<p>Father Name &nbsp:
+			<input type="text" name="fathername" size="30" required ></p>
+
+			<p>Address &nbsp &nbsp &nbsp:
+			<input type="text" name="paddress"  size="30" required ></p>
+
+			<p>Gender &nbsp &nbsp &nbsp :
+
+				<input type="radio" name="gen" value="male" size="10">Male &nbsp
+				<input type="radio" name="gen" value="Female" size="10">Female
+			</p>
+
+
+		<p> Branch &nbsp  :
+
+			<select name="Branch" >
+				<option value="-1" selected>select..</option>
+				<option value="IT">IT</option>
+				<option value="CSE">CSE</option>
+				<option value="ECE">ECE</option>
+				<option value="EEE">CSE</option>
+				<option value="CIVIL">CIVIL</option>
+				<option value="MECH">MECH</option>
+		    </select>
+			&nbsp &nbsp  Year  :
+
+			<select name="Year">
+				<option value="-1" selected>select..</option>
+				<option value="1">1st</option>
+				<option value="2">2nd</option>
+				<option value="3">3rd</option>
+				<option value="4">4th</option>
+		    </select>
+			</p>
+			<p>Hobbies :
+		<input type="checkbox" name="games" value="cricket" > cricket
+		<input type="checkbox" name="games" value="hockey" > hockey
+		<input type="checkbox" name="games" value="chess" > chess
+		<input type="checkbox" name="games" value="carroms" > carroms
+		</P>
+
+			<p>College Name :
+			<input type="text" name="collegename"  size="30"></p>
+
+			<p>Email id &nbsp &nbsp  :
+			<input type="text" name="emailid"  size="30" required ></p>
+
+			<p>Phone number :
+			<input type="text" name="phonenumber"  size="30"></p><br>
+			<input type="file" name="pic" accept="image/*">
+			<br><br>
+			<input type="checkbox" name="t&c" value="agreed" required> I Agree Terms and Conditions
+          			<br><br><center><input type="reset" >&nbsp &nbsp <input type="submit" /></center>
+
+</form>
+</body>
+</html>

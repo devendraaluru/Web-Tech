@@ -24,6 +24,37 @@
  "institute":"narayanajr.college",
  "data":["2016-19","89%"]
 }
+],
+"skill":[
+    {
+      "title":"programing language",
+      "info":["c","c++","python","java","Ruby","R"]
+    },
+    {
+      "title":"Database",
+      "info":["oracle","Mysql","Sql"]
+    },
+    {
+      "title":"Operation Systems",
+      "info":["windows","MAC","kaliLinux"]
+    },
+    {
+      "title":"web Technologys",
+      "info":["HTML","css","XML","javascript"]
+    }
+  ],
+  "achivements":[
+    {
+    "achive":"programing",
+   "data":["i got 1st prize"]
+},
+{
+  "achive":"football",
+   "data":[" i got 4th prize"]
+},
+{
+"achive":"charroms",
+"data":["i got 3rd prize"]
+}
 ]
-
 }

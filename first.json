@@ -1,0 +1,29 @@
+{
+  "profile":{
+    "name":"DEVENDRA KUMAR",
+    "email":"devendraaluru369@gmail.com",
+    "mobile":"9999999998",
+    "address":"pvpsit"
+  },
+"career":{
+  "info":"to pursue a challenging Career and be a part of"
+},
+"education":[{
+
+ "degree":"b-tech",
+ "institute":"pvpsit",
+ "data":["2016-19","89%"]
+},
+{
+ "degree":"b-tech",
+ "institute":"pvpsit",
+ "data":["2016-19","70%"]
+},
+{
+ "degree":"ssc",
+ "institute":"narayanajr.college",
+ "data":["2016-19","89%"]
+}
+]
+
+}

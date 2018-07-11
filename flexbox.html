@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+    .flex{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap:wrap-reverse;
+    }
+      .flex>div{
+       background-color: #ddd;
+       margin: 2%;
+       padding: 2%;
+       font-size: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+      <div>D</div>
+    </div>
+
+  </body>
+</html>

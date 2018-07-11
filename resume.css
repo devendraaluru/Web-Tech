@@ -1,0 +1,70 @@
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+.parent{
+  border: 2px solid blue;
+
+}
+a{
+  word-wrap: break-word;
+}
+
+.child1{
+  width: 30%;
+  border:2px solid red;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10%;
+}
+
+.child2{
+  width: 70%;
+  border:2px solid red;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10%;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 720px) {
+  .parent{
+    display: flex;
+    flex-direction: row;
+  }
+  .parent{
+    border: 2px solid blue;
+  }
+
+  .child1{
+    width: 100%;
+    border:2px solid red;
+    background-color: powderblue;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10%;
+  }
+
+  .child2{
+    width: 100%;
+    border:2px solid red;
+    background-color: powderblue;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10%;
+  }
+
+  img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+  }
+
+}
